@@ -69,7 +69,7 @@ If any permission in a Permission Group is granted. Another permission in the sa
  => <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>
  
  9.For Sensors [BODY_SENSORS] 
- =>  <uses-permission android:name="android.permission.BODY_SENSORS"/>
+   <uses-permission android:name="android.permission.BODY_SENSORS"/>
  
  
    # How to call Permission class ?
