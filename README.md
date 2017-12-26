@@ -41,15 +41,15 @@ these two permissions are grouped in android.permission-group.CALENDAR.
 If any permission in a Permission Group is granted. Another permission in the same group will be automatically granted as well. In the above example, if READ_CALENDAR is granted, the the application will also grant WRITE_CALENDAR.
 
 
-```java
+
 # ★ Taking Permision in Manifest:
  
- 
- 1.For Location [Fine Location/COARSE_LOCATION] 
+ ```java
+ 1.For Location [Fine_Location/COARSE_LOCATION] 
  => // 
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
- 2.For Camera  [Camera]  
+ 2.For Camera  [CAMERA]  
  => <uses-permission android:name="android.permission.CAMERA" />
  
  3.For File_STORAGE [READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE] 
