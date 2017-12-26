@@ -46,21 +46,21 @@ If any permission in a Permission Group is granted. Another permission in the sa
  => //  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
  
  2.For Camera  [Camera]  
- => <uses-permission android:name="android.permission.CAMERA">
+ => <uses-permission android:name="android.permission.CAMERA"/>
  
  3.For File_STORAGE [READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE] 
- => <manifest>
- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-</manifest>
+ => 
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
  
  4.For SMS [SEND_SMS/RECEIVE_SMS/READ_SMS/RECEIVE_WAP_PUSH/RECEIVE_MMS/READ_CELL_BROADCASTS] 
- => <uses-permission android:name="android.permission.SEND_SMS"/>
+ => <uses-permission android:name="android.permission.SEND_SMS" />
  
  5.For CALENDAR [READ_CALENDAR/WRITE_CALENDAR] 
  => <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
  
  6.For CONTACTS[READ_CONTACTS/WRITE_CONTACTS/GET_ACCOUNTS] 
- => <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+ => <uses-permission android:name="android.permission.WRITE_CONTACTS" />
  
  7.For CALL_PHONE [READ_PHONE_STATE/CALL_PHONE/READ_CALL_LOG/WRITE_CALL_LOG/ADD_VOICEMAIL/USE_SIP/PROCESS_OUTGOING_CALLS]
  => <uses-permission android:name="android.permission.CALL_PHONE"/>
