@@ -91,6 +91,8 @@ If any permission in a Permission Group is granted. Another permission in the sa
                     public void getPermissionMessage(String permissionStatus) {
 
                    if(permissionStatus.equals("OK")){
+                   
+                         // All permission is taken,Do your code
                             
                             Toast.makeText(MainActivity.this, "All Permissipon is taken", Toast.LENGTH_SHORT).show();
                         }
