@@ -40,8 +40,11 @@ these two permissions are grouped in android.permission-group.CALENDAR.
 
 If any permission in a Permission Group is granted. Another permission in the same group will be automatically granted as well. In the above example, if READ_CALENDAR is granted, the the application will also grant WRITE_CALENDAR.
 
+
 ```java
 # ★ Taking Permision in Manifest:
+ 
+ 
  1.For Location [Fine Location/COARSE_LOCATION] 
  => // 
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -53,8 +56,7 @@ If any permission in a Permission Group is granted. Another permission in the sa
  => 
  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
- 
- 4.For SMS [SEND_SMS/RECEIVE_SMS/READ_SMS/RECEIVE_WAP_PUSH/RECEIVE_MMS/READ_CELL_BROADCASTS] 
+  4.For SMS [SEND_SMS/RECEIVE_SMS/READ_SMS/RECEIVE_WAP_PUSH/RECEIVE_MMS/READ_CELL_BROADCASTS] 
  => <uses-permission android:name="android.permission.SEND_SMS" />
  
  5.For CALENDAR [READ_CALENDAR/WRITE_CALENDAR] 
@@ -91,5 +93,5 @@ If any permission in a Permission Group is granted. Another permission in the sa
                 
                 
 
-//**permissionStatus.equals("OK")= all Dangerous permission is garnted,else all Dangerous permission is not garnted yet**
+//permissionStatus.equals("OK")= all Dangerous permission is garnted,else all Dangerous permission is not garnted yet
                         
