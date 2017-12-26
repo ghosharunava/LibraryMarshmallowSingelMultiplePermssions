@@ -47,7 +47,7 @@ If any permission in a Permission Group is granted. Another permission in the sa
  
  2.For Camera  [Camera]  
  =>
- uses-permission android:name="android.permission.CAMERA"
+" <uses-permission android:name="android.permission.CAMERA"> "
  
  3.For File_STORAGE [READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE] 
  => 
