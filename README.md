@@ -71,8 +71,9 @@ If any permission in a Permission Group is granted. Another permission in the sa
  
  
    # How to call Permission class ?
-    
-  =>>
+=:   
+
+
       new MultiplePermission(MainActivity.this, new MultiplePermission.GetPermissionResult() {
                     @Override
                     public void getPermissionMessage(String permissionStatus) {
