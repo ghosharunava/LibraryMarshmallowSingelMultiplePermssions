@@ -44,6 +44,11 @@ If any permission in a Permission Group is granted. Another permission in the sa
 # ★ Taking Permision in Manifest:
  1.For Location [Fine Location/COARSE_LOCATION] 
  => //  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ ❆ AndroidManifest.xml PAGE:-
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.READ_CONTACTS" />
+```
  
  2.For Camera  [Camera]  
  => <uses-permission android:name="android.permission.CAMERA" />
