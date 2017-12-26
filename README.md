@@ -44,7 +44,7 @@ If any permission in a Permission Group is granted. Another permission in the sa
 
 
 
-# ★ Taking Permision in Manifest:
+# ★ Taking Permision in Manifest[Must call only this uses-permission for particular Permission]:
  
  ```java
  1.For Location [Fine_Location/COARSE_LOCATION] 
@@ -82,10 +82,11 @@ If any permission in a Permission Group is granted. Another permission in the sa
  9.For Sensors [BODY_SENSORS] 
 =>
 <uses-permission android:name="android.permission.BODY_SENSORS"/>
- 
- 
+
+```
    # How to call Permission class ?
 
+```java
       new MultiplePermission(MainActivity.this, new MultiplePermission.GetPermissionResult() {
                     @Override
                     public void getPermissionMessage(String permissionStatus) {
