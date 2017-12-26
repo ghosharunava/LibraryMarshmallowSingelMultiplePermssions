@@ -45,7 +45,14 @@ If any permission in a Permission Group is granted. Another permission in the sa
 
 
 # ★ Taking Permision in Manifest[Must call only this uses-permission for particular Permission]:
+
+ For example,if you want to call  Fine_Location permission or COARSE_LOCATION then add the particular permission for location here
+  ```java
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+   
  
+``` 
+
  ```java
  1.For Location [Fine_Location/COARSE_LOCATION] 
  =>
