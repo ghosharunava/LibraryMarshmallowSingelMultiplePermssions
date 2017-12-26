@@ -62,19 +62,24 @@ If any permission in a Permission Group is granted. Another permission in the sa
  <uses-permission android:name="android.permission.SEND_SMS" />
  
  5.For CALENDAR [READ_CALENDAR/WRITE_CALENDAR] 
- => <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+ =>
+ <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
  
  6.For CONTACTS[READ_CONTACTS/WRITE_CONTACTS/GET_ACCOUNTS] 
- => <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+ => 
+ <uses-permission android:name="android.permission.WRITE_CONTACTS" />
  
  7.For CALL_PHONE [READ_PHONE_STATE/CALL_PHONE/READ_CALL_LOG/WRITE_CALL_LOG/ADD_VOICEMAIL/USE_SIP/PROCESS_OUTGOING_CALLS]
- => <uses-permission android:name="android.permission.CALL_PHONE"/>
+ => 
+ <uses-permission android:name="android.permission.CALL_PHONE"/>
  
  8.For MICROPHONE [RECORD_AUDIO] 
- => <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>
+ => 
+ <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>
  
  9.For Sensors [BODY_SENSORS] 
-   <uses-permission android:name="android.permission.BODY_SENSORS"/>
+=>
+<uses-permission android:name="android.permission.BODY_SENSORS"/>
  
  
    # How to call Permission class ?
