@@ -24,7 +24,8 @@ dependencies {
 ```
 Here, one interesting thing is that dangerous permissions are grouped into the Permission Group, as displayed in the table.
 
-(https://i.stack.imgur.com/kYpqt.png)
+![kypqt](https://user-images.githubusercontent.com/31703258/34355193-847f2b58-ea59-11e7-8134-389b318861c9.png)
+
 
 But what does it mean? It means that you need to request for only one permission from group.
 
