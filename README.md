@@ -70,7 +70,7 @@ If any permission in a Permission Group is granted. Another permission in the sa
  <uses-permission android:name="android.permission.CALL_PHONE"/>
  
  8.For MICROPHONE [RECORD_AUDIO] 
- => 
+ 
   <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>
  
  9.For Sensors [BODY_SENSORS] 
