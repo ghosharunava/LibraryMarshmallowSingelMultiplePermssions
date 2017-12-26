@@ -49,9 +49,9 @@ If any permission in a Permission Group is granted. Another permission in the sa
  => <uses-permission android:name="android.permission.CAMERA"/>
  
  3.For File_STORAGE [READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE] 
- => <Manifest>
+ => <manifest>
  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
- <MAnifest\>
+</manifest>
  
  4.For SMS [SEND_SMS/RECEIVE_SMS/READ_SMS/RECEIVE_WAP_PUSH/RECEIVE_MMS/READ_CELL_BROADCASTS] 
  => <uses-permission android:name="android.permission.SEND_SMS"/>
